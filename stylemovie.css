@@ -3,8 +3,11 @@ h1 {
     text-align: center;
     text-decoration: underline;
     color: grey;
-    position: relative;
-    left:270px;
+    position: fixed;
+    left:880px;
+    top: -7px;
+   
+    
 }
 
 #summary {
@@ -15,7 +18,7 @@ h1 {
     float: left;
     margin-right: 1 1 10px 10px;
     position: relative;
-    top: 10px;
+    top: 20px;
     width: 500px;
     left: 675px;
     color: grey;
@@ -33,7 +36,7 @@ h1 {
     font-style: bold;
     position: relative;
     top: 750px;
-    right: 5px;
+    right: 250px;
     color: red;
     
     
@@ -62,15 +65,15 @@ body {
 
 #firstimage {
    position: relative;
-   right: 10px;
-   bottom: 650px;
+   left: 330px;
+   bottom: 25px;
    border: 25px solid blue;
 }
 
 #secondimage {
-    position: relative;
-    left: 810px;
-    bottom: 360px;
+    position: fixed;
+    left: 50px;
+    top: 100px;
     border: 25px solid blue;
 }
 
